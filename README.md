@@ -56,3 +56,15 @@ Then, you can run your tests on _all_ of your local browsers via:
 `wct -p` will keep the browsers alive after test runs (refresh to re-run).
 
 `wct test/some-file.html` will test only the files you specify.
+
+
+##Deploying Your Element Github Page
+
+Create SSH Keys via:
+
+    eval `ssh-agent -s` 
+    ssh-add ~/.ssh/*_rsa
+
+Publish the Page
+
+    ../tools/bin/gp.sh {username} {element name}
