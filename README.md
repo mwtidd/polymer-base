@@ -58,13 +58,33 @@ Then, you can run your tests on _all_ of your local browsers via:
 `wct test/some-file.html` will test only the files you specify.
 
 
-##Deploying Your Element Github Page
+##Deploying Your Element GitHub Page
 
+Move to your development directory:
+    
+    cd ..
+    
+If the Polymer Tools hasn't been installed then:
+
+    git clone git://github.com/Polymer/tools.git
+
+
+Create and enter a temporary directory:
+
+    mkdir temp && cd temp
+    
 Create SSH Keys via:
 
     eval `ssh-agent -s` 
     ssh-add ~/.ssh/*_rsa
 
-Publish the Page
+Publish the GitHub Page (Note: Doing the will both wipe out the temp directory as well as force update the gh-pages branch)
 
-    ../tools/bin/gp.sh {username} {element name}
+    ../tools/bin/gp.sh <username> <elementname>
+    
+Remove the temporary directory
+   
+    cd ..
+    rm -rf temp
+    
+The page will be available at `http://<username>.github.io/<elementname>/`
