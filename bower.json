@@ -1,0 +1,32 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "authors": [
+    "y"
+  ],
+  "description": "y",
+  "keywords": [
+    "y"
+  ],
+  "main": "y",
+  "license": "y",
+  "homepage": "y",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "moduleType": []
+}
