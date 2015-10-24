@@ -1,16 +1,18 @@
 {
-  "name": "y",
+  "name": "polymer-base",
   "version": "0.0.1",
   "authors": [
-    "y"
+    "Michael Tidd <mwtidd@envisa.com>"
   ],
-  "description": "y",
+  "description": "An element providing a solution to no problem in particular.",
   "keywords": [
-    "y"
+    "web-component",
+    "web-components",
+    "polymer"
   ],
-  "main": "y",
-  "license": "y",
-  "homepage": "y",
+  "main": "polymer-base.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/mwtidd/seed-element/",
   "ignore": [
     "/.*",
     "/test/",
